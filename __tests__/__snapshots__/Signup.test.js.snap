@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Signup component without crashing renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000040",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-around",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#000",
+              "borderRadius": 10,
+              "display": "flex",
+              "height": 75,
+              "justifyContent": "space-around",
+              "width": 75,
+            }
+          }
+        >
+          <ActivityIndicator
+            animating={false}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="small"
+          />
+        </View>
+      </View>
+    </Modal>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 0.2,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        resizeMode="center"
+        source={
+          Object {
+            "testUri": "../../../src/Assets/Images/logo.png",
+          }
+        }
+        styles={
+          Object {
+            "height": 160,
+            "width": 160,
+          }
+        }
+      />
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "flex": 0.75,
+            "maxWidth": 270,
+            "width": "100%",
+          },
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <RCTScrollView>
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="sentences"
+              autoCorrect={false}
+              keyboardType="default"
+              onChangeText={[Function]}
+              placeholder="First Name"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="sentences"
+              autoCorrect={false}
+              keyboardType="default"
+              onChangeText={[Function]}
+              placeholder="Last Name"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              keyboardType="email-address"
+              onChangeText={[Function]}
+              placeholder="Email"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              keyboardType="email-address"
+              onChangeText={[Function]}
+              placeholder="Re-enter your email"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              keyboardType="default"
+              onChangeText={[Function]}
+              placeholder="Password"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              secureTextEntry={true}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderColor": "#bdbdbd",
+                  "borderRadius": 0,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                },
+                Object {
+                  "borderColor": "#bdbdbd",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              keyboardType="default"
+              onChangeText={[Function]}
+              placeholder="Confirm password"
+              placeholderTextColor="#919090"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={true}
+              style={
+                Object {
+                  "backgroundColor": "#dbdbdb",
+                  "borderRadius": 0,
+                  "color": "#545454",
+                  "fontSize": 16,
+                  "height": 44,
+                  "paddingBottom": 0,
+                  "paddingLeft": 10,
+                  "paddingTop": 2,
+                }
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#424142",
+                "borderRadius": 2,
+                "height": 44,
+                "justifyContent": "center",
+                "marginTop": 20,
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 17,
+                }
+              }
+            >
+              Submit
+            </Text>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

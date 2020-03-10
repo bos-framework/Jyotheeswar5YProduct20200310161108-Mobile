@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Chat component without crashing Render Chat component without crashing 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 0.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "marginTop": 10,
+        }
+      }
+    >
+       Module -&gt; Sub Modules 
+    </Text>
+    <Text>
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+       Module -&gt; Operations 
+    </Text>
+    <Text>
+      
+    </Text>
+  </View>
+</View>
+`;
